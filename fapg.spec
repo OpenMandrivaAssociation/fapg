@@ -10,7 +10,6 @@ Url: http://royale.zerezo.com/fapg/
 Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.bz2
 Group: Sound
 License: GPL
-BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 FAPG is a tool to generate list of audio files (Wav, MP3, Ogg, etc)
