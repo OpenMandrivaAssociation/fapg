@@ -1,6 +1,6 @@
 %define name fapg
 %define version 0.35
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name: %name
 Summary: Fast Audio Playlist Generator
