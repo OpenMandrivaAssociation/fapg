@@ -37,3 +37,36 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/*
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.35-6mdv2011.0
++ Revision: 618254
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.35-5mdv2010.0
++ Revision: 428702
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.35-4mdv2009.0
++ Revision: 245055
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.35-2mdv2008.1
++ Revision: 136408
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import fapg
+
+
+* Mon Aug 07 2006 Lenny Cartier <lenny@mandriva.com> 0.35-2mdv2007.0
+- rebuild
+
+* Tue Feb 08 2005 Lenny Cartier <lenny@mandrakesoft.com> 0.32-1mdk
+- from Antoine Jacquet <royale@zerezo.com> : 
+ - Fixed group in the spec file
+
+* Mon Feb 07 2005 Antoine Jacquet <royale@zerezo.com> 
+- Added spec file
