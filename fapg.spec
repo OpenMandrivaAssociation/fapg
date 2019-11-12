@@ -20,23 +20,17 @@ in various formats (M3U, PLS, HTML, etc).
 %setup -q
 
 %build 
+%configure
 %make_build
 
 %install 
-%make_install PRE=$RPM_BUILD_ROOT/usr
-
-rm -rf $RPM_BUILD_ROOT/%_docdir/
-
-%clean 
-rm -rf $RPM_BUILD_ROOT 
+%make_install
 
 %files 
 %defattr(-,root,root,0755) 
 %doc COPYING README
 %{_bindir}/fapg
 %{_mandir}/man1/*
-
-
 
 
 %changelog
