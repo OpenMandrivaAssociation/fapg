@@ -1,13 +1,13 @@
 %define name fapg
-%define version 0.35
-%define release 7
+%define version 0.42
+%define release 1
 
 Name: %name
 Summary: Fast Audio Playlist Generator
 Version: %version
 Release: %release
 Url: http://royale.zerezo.com/fapg/
-Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.bz2
+Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
 Group: Sound
 License: GPL
 BuildRoot: %{_tmppath}/%{name}-buildroot
@@ -20,10 +20,10 @@ in various formats (M3U, PLS, HTML, etc).
 %setup -q
 
 %build 
-make
+%make_build
 
 %install 
-make install PRE=$RPM_BUILD_ROOT/usr
+%make_install PRE=$RPM_BUILD_ROOT/usr
 
 rm -rf $RPM_BUILD_ROOT/%_docdir/
 
