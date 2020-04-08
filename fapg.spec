@@ -1,11 +1,7 @@
-%define name fapg
-%define version 0.42
-%define release 1
-
-Name: %name
+Name: fapg
 Summary: Fast Audio Playlist Generator
-Version: %version
-Release: %release
+Version: 0.43
+Release: 1
 Url: http://royale.zerezo.com/fapg/
 Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
 Group: Sound
