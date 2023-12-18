@@ -1,6 +1,6 @@
 Name: fapg
 Summary: Fast Audio Playlist Generator
-Version: 0.43
+Version: 0.44
 Release: 1
 Url: http://royale.zerezo.com/fapg/
 Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
