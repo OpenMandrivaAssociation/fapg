@@ -6,6 +6,11 @@ Url: https://royale.zerezo.com/fapg/
 Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
 Group: Sound
 License: GPL
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(liburiparser)
 
 BuildRoot: %{_tmppath}/%{name}-buildroot
